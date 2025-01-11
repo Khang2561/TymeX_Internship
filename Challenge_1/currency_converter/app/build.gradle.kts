@@ -47,6 +47,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
 }
 
 dependencies {
@@ -59,6 +60,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+
 
     // OkHttp and Retrofit
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
@@ -77,5 +80,6 @@ dependencies {
 
     // Mock Web Server
     testImplementation("com.squareup.okhttp3:mockwebserver:4.11.0")
+
 
 }

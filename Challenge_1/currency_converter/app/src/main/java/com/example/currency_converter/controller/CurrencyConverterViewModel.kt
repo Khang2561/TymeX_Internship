@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 // CurrencyConverterViewModel.kt
 // View Model for managing the currency conversion logic and state
 class CurrencyConverterViewModel(
-    private val repository: CurrencyConverterRepository = CurrencyConverterRepository(apiKey = "9a93e56ab3a1024f4c044def75d9ae6e")
+    private val repository: CurrencyConverterRepository = CurrencyConverterRepository(apiKey = "1d3caa656e990b1f97807b6a42a26973")
 ) : ViewModel() {
 
 
