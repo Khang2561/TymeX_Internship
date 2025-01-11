@@ -45,6 +45,6 @@ The app uses Currency Layer API for fetching real-time exchange rates. Ensure th
 
 **Challenges Encountered**
 API Integration: Handling real-time data and ensuring the app behaves smoothly even with network latency.
-
+Chart Integration: Implementing a chart to display exchange rate history is still in progress.
 **Video Demonstration**
 You can watch a demo of the app's key features here:
